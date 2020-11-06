@@ -11,6 +11,6 @@ Flutter 录制MP3插件  使用lame进行录制.支持Android和IOS
    tools:replace="android:label"
    
  
-   ![](.images/android集成步骤1.png)
+   ![](images/android集成步骤1.png)
 
 
