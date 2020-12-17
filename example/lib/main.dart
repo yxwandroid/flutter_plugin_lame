@@ -33,10 +33,10 @@ class _MyAppState extends State<MyApp> {
                 onPressed: () async {
                   await FlutterPluginLame.startRecord;
 
-                  Timer(Duration(seconds: 4), () async {
-                    await FlutterPluginLame.stopRecord;
-                    print("flutter 停止录制");
-                  });
+                  // Timer(Duration(seconds: 4), () async {
+                  //   await FlutterPluginLame.stopRecord;
+                  //   print("flutter 停止录制");
+                  // });
                 },
                 child: Text("开始录制")),
             FlatButton(
